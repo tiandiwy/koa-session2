@@ -27,7 +27,7 @@ module.exports = (opts = {}) => {
         const old = JSON.stringify(ctx.session);
 
         // add refresh function
-        ctx.session.refresh = () => {need_refresh = true}
+    	 ctx.session.refresh = () => {need_refresh = true;await store.set(ctx.session, Object.assign({}, opts, {sid: id}), ctx);}
 
         await next();
 

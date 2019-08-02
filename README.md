@@ -1,5 +1,5 @@
-# koa-session2
-
+# tomjs-koa-session2
+forked from [Secbone/koa-session2](https://github.com/Secbone/koa-session2)
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads][downloads-image]][downloads-url]
